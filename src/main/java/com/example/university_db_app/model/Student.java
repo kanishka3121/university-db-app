@@ -22,5 +22,6 @@ public class Student {
  @Column(name = "full_name", nullable = false, length = 100)
  private String fullName;
  @Column(name = "email", nullable = false, unique = true, length = 100)
+ private String email;
 }
  
